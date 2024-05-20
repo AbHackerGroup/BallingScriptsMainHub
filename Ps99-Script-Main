@@ -1,0 +1,31 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("💫BallingScripts💫")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Pet-SpawnerHub💼")
+
+KillingCheats:CreateButton("Pet-Spawner-Main🧰", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/BallingScriptPs99/main/BallingScripts"))()
+print("HI")
+end)
+
+KillingCheats:CreateTextbox("Pet-Name-To-Spawn🐈", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/BallingScriptPs99/main/BallingScripts"))()
+        print(text)
+end)
+
+KillingCheats:CreateToggle("Spawn-Pet🔨", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/BallingScriptPs99/main/BallingScripts"))()
+print(value)
+end)
+
+KillingCheats:CreateDropdown("Pet-Type", {"Normal🏳️", "Golden🌟", "Rainbow🌈"}, 2, function(text)
+print(text)
+end)
+
+KillingCheats:CreateSlider("Slider🛹", 0, 100, 15, false, function(value)
+print(value)
+ end)
+KillingCheats:CreateColorPicker("💫Balling-Scripts💫", Color3.new(255, 255, 255), function(value)
+print(value)
+end)
